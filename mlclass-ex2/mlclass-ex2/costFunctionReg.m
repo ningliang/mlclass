@@ -25,9 +25,6 @@ J = 1 / m * sum(costs) + lambda / (2*m) * theta_non_constant' * theta_non_consta
 grad = 1 / m * X' * (hypothesis - y);
 grad = grad + 1 / m * lambda * [0; theta_non_constant];
 
-
-
-
 % =============================================================
 
 end
